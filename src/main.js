@@ -10,8 +10,9 @@ window.$ = window.jquery = jquery
 import 'bootstrap/dist/js/bootstrap.min'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-//rem
-import './third/flexible'
+// bootstrap rem = width / 10
+// rem
+// import './third/flexible'
 
 
 Vue.config.productionTip = false;

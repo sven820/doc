@@ -1,6 +1,9 @@
 <template>
   <div class="home">
-    <div class="">home</div>
+    <section class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="logo navbar-brand">doc</a>
+    </section>
+    <section class="content"></section>
   </div>
 </template>
 
@@ -15,3 +18,15 @@ export default {
   }
 }
 </script>
+
+<style lang="less" scoped src='@/components/theme/index.less'></style>
+<style lang="less" scoped>
+div {
+  color: burlywood;
+}
+.content {
+  width: 1rem;
+  background-color: brown;
+  height: 100px;
+}
+</style>
