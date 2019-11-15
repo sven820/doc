@@ -5,8 +5,6 @@
                 <router-link :to=item.path>{{item.title}}</router-link>
             </div>
         </div>
-        <!-- <div class="slider-bar-container"></div>
-        <div class="slider-bar"></div> -->
         <router-view></router-view>
     </div>
 </template>
@@ -40,6 +38,12 @@ export default {
                     title: 'bootstrap',
                     id: '3',
                     path: '/web/bt4',
+                    sub: []
+                },
+                {
+                    title: 'layout',
+                    id: '4',
+                    path: '/web/layout',
                     sub: []
                 },
             ]

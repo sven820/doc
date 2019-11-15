@@ -1,8 +1,8 @@
 <template>
 	<div id="content">
 	    <div class="nav">
-		 	<router-link to="/layout/doc" append>doc</router-link> | 
-	      	<router-link to="/layout/l1" append>l123</router-link>
+		 	<router-link to="doc">doc</router-link> | 
+	      	<router-link to="l1">l123</router-link>
 	    </div>
     	<router-view class="section"></router-view>
   	</div>
