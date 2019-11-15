@@ -1,8 +1,8 @@
 <template>
 	<div id="content">
 	    <div class="nav">
-		 	<router-link to="doc">doc</router-link> | 
-	      	<router-link to="l1">l123</router-link>
+		 	<router-link to="/web/layout/doc">doc</router-link> | 
+	      	<router-link to="/web/layout/l1">l123</router-link>
 	    </div>
     	<router-view class="section"></router-view>
   	</div>
@@ -10,6 +10,7 @@
 
 <script>
 	import l1 from "./l1.vue"
+import { log } from 'util'
 
 export default {
 
@@ -19,6 +20,18 @@ export default {
 		return {
 
 		}
+	},
+	beforeRouteEnter (to, from, next) {
+		next()
+		console.log(to);
+	},
+	beforeRouteUpdate (to, from, next) {
+		next()
+		console.log(to);
+	},
+	beforeRouteLeave (to, from, next) {
+		next()
+		console.log(to);
 	}
 }
 </script>
