@@ -1,11 +1,11 @@
 <template>
-    <div class="web container-fluid">
-        <div class="nav-menu">
+    <div class="container-fluid bg-light clearfix">
+        <div class="nav-menu float-left">
             <div class="menu-item" v-for="(item, index) in menus" :key="index">
                 <router-link :to=item.path>{{item.title}}</router-link>
             </div>
         </div>
-        <router-view></router-view>
+        <router-view class=""></router-view>
     </div>
 </template>
 
@@ -52,6 +52,6 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 
 </style>

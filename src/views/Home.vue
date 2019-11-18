@@ -16,16 +16,12 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid">
-      <router-view></router-view>  
-    </div>
-    
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-
 
 export default {
   name: 'home',
@@ -37,4 +33,5 @@ export default {
 
 <style lang="less" src='@/components/theme/index.less' scoped></style>
 <style lang="less" scoped>
+
 </style>

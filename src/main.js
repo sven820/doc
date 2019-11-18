@@ -7,8 +7,8 @@ import store from './store'
 import jquery from 'jquery'
 window.$ = window.jquery = jquery
 //bootstrap
-import 'bootstrap/dist/js/bootstrap.min'
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/js/bootstrap.min'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 // bootstrap rem = width / 10
 // rem
