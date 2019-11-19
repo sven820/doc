@@ -53,5 +53,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.nav-menu {
+    background-color: red;
+}
 </style>
